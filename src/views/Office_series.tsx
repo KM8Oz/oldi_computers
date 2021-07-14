@@ -5,6 +5,6 @@ import tools from "../tools"
 export default function Office_series({data}:{data:any}) {
     tools.setTitle("Office_series");
     return (
-        <Layout headbanner={HeadbannerC} sponsores={SponsoresC} links={LinksC} container={ProductsContainerC} footbanner={FootbannerC} />
+        <Layout data={data}  headbanner={HeadbannerC} sponsores={SponsoresC} links={LinksC} container={ProductsContainerC} footbanner={FootbannerC} />
     )
 }

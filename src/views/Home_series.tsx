@@ -5,6 +5,6 @@ import { HeadbannerC, FootbannerC, ProductsContainerC,LinksC, SponsoresC } from 
 export default function Home_series({data}:{data:any}) {
     tools.setTitle("Home_series");
     return (
-        <Layout headbanner={HeadbannerC} sponsores={SponsoresC} links={LinksC} container={ProductsContainerC} footbanner={FootbannerC} />
+        <Layout data={data} headbanner={HeadbannerC} sponsores={SponsoresC} links={LinksC} container={ProductsContainerC} footbanner={FootbannerC} />
     )
 }

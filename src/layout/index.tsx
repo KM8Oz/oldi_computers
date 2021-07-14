@@ -1,17 +1,24 @@
 // import React from 'react'
 import React, { FunctionComponent } from 'react';
 import styled from 'styled-components'
+export interface Data {
+   carousel: any,
+   links:any,
+   banner_foot:any,
+   sponsores:Array<string>
+}
 interface LayoutProps {
-    container:FunctionComponent<any>,
+   container:FunctionComponent<any>,
     headbanner:FunctionComponent<any>,
     links:FunctionComponent<any>,
     footbanner:FunctionComponent<any>,
     sponsores:FunctionComponent<any>,
+    data:Data
 }
 const { height, width } = window.screen;
 const border = "border:1px dotted #ccc;";
-export default function Layout({headbanner, links, container, footbanner, sponsores }: LayoutProps) {
-   // console.log(typeof headbanner);
+export default function Layout({headbanner, links, container, footbanner, sponsores , data}: LayoutProps) {
+   // console.log(data);
    const Headbannerc = headbanner;
    const Linksc = links;
    const Containercc = container;
@@ -20,19 +27,19 @@ export default function Layout({headbanner, links, container, footbanner, sponso
     return (
      <Container>
         <HeadBanner >
-            <Headbannerc />
+            <Headbannerc  slides={data?.carousel} />
         </HeadBanner>
         <Links >
-           <Linksc />
+           <Linksc links={data?.links}/>
         </Links>
         <ProductsContainer>
             <Containercc />
             </ProductsContainer>
         <FootBanner >
-          <Footbannerc />
+          <Footbannerc footer={data?.banner_foot} />
         </FootBanner>
         <Sponsores >
-            <Sponsoresc />
+            <Sponsoresc list={data?.sponsores} />
             </Sponsores>
      </Container>
     )
@@ -43,20 +50,21 @@ const Container = styled.div`
    max-width: 1300px;
    margin:0 auto;
    display: block;
+   scrollbar-color: #0060cc;
+   scrollbar-width: 0;
    scroll-behavior: smooth;
-   scroll-snap-points-x: ${height}px;
    height: 100%;
    /* background-color: #444; */
 `;
 const HeadBanner = styled.div`
    width:100%;
    height: ${height/3}px;
-   ${border}
+   /* ${border} */
 `;
 const Links = styled.div`
    width:100%;
-   height: ${height/12}px;
-   ${border}
+   height: fit-content;
+   /* ${border} */
 `;
 const ProductsContainer = styled.div`
 width:100%;
@@ -67,10 +75,11 @@ ${border}
 const FootBanner = styled.div`
    width:100%;
    height: ${height/3}px;
-   ${border}
+   /* ${border} */
 `;
 const Sponsores = styled.div`
    width:100%;
-   height: ${height/8}px;
-   ${border}
+   /* height: ${height/8}px; */
+   height:fit-content;
+   /* ${border} */
 `;

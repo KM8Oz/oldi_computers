@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+// import "./tools/global";
 // const [data, setData] = useState({})
 var element = document.getElementById("root");
 ReactDOM.render(

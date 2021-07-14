@@ -1,6 +1,40 @@
 {
     "Home_series":{
-
+        "carousel":[
+            {
+                "title":"Домашние компьютеры ",
+                "subtitle":"Эксперное производство домашних компьютеров с высокой производ",
+                "pic":"Comp.png"
+            },
+            {
+                "title":"Velit culpa sunt",
+                "subtitle":"Lorem velit est occaecat esse fugiat excepteur sunt.",
+                "pic":"Comp1.png"
+            },
+            {
+                "title":"Incididunt ",
+                "subtitle":"Sint laborum velit ut duis voluptate nulla fugiat est.Ea veniam est nulla non ad commodo.",
+                "pic":"Comp2.png"
+            }
+        ],
+        "links":[
+            "Компьютеры и периферия",
+            "Компьютеры",
+            "Домашние компьютеры"
+        ],
+        "banner_foot":{
+            "pic":"banner_foot.png",
+            "title":"Компьютерный конфигуратор",
+            "subtitle":"Соберите Ваш будущий компьютер прямо"
+        },
+        "sponsores":[
+            "asus.png",
+            "amd.png",
+            "nvidia.png",
+            "intel.png",
+            "radeon.png",
+            "corsair.png"
+        ]
     },
     "Office_series":{
 

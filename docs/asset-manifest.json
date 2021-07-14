@@ -1,22 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/static/js/main.1f8ede50.chunk.js",
-    "main.js.map": "/static/js/main.1f8ede50.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.073786c3.js",
-    "runtime-main.js.map": "/static/js/runtime-main.073786c3.js.map",
-    "static/js/2.73eaf7e1.chunk.js": "/static/js/2.73eaf7e1.chunk.js",
-    "static/js/2.73eaf7e1.chunk.js.map": "/static/js/2.73eaf7e1.chunk.js.map",
-    "static/js/3.dc46eb94.chunk.js": "/static/js/3.dc46eb94.chunk.js",
-    "static/js/3.dc46eb94.chunk.js.map": "/static/js/3.dc46eb94.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.6dea0f05.chunk.css.map": "/static/css/main.6dea0f05.chunk.css.map",
-    "static/js/2.73eaf7e1.chunk.js.LICENSE.txt": "/static/js/2.73eaf7e1.chunk.js.LICENSE.txt"
+    "main.css": "https://raw.githack.com/KM8Oz/oldi_computers/master/docs/static/css/main.b1e4640e.chunk.css",
+    "main.js": "https://raw.githack.com/KM8Oz/oldi_computers/master/docs/static/js/main.e34acc1d.chunk.js",
+    "main.js.map": "https://raw.githack.com/KM8Oz/oldi_computers/master/docs/static/js/main.e34acc1d.chunk.js.map",
+    "runtime-main.js": "https://raw.githack.com/KM8Oz/oldi_computers/master/docs/static/js/runtime-main.c4b76f83.js",
+    "runtime-main.js.map": "https://raw.githack.com/KM8Oz/oldi_computers/master/docs/static/js/runtime-main.c4b76f83.js.map",
+    "static/js/2.14edb9bd.chunk.js": "https://raw.githack.com/KM8Oz/oldi_computers/master/docs/static/js/2.14edb9bd.chunk.js",
+    "static/js/2.14edb9bd.chunk.js.map": "https://raw.githack.com/KM8Oz/oldi_computers/master/docs/static/js/2.14edb9bd.chunk.js.map",
+    "static/js/3.c1534b57.chunk.js": "https://raw.githack.com/KM8Oz/oldi_computers/master/docs/static/js/3.c1534b57.chunk.js",
+    "static/js/3.c1534b57.chunk.js.map": "https://raw.githack.com/KM8Oz/oldi_computers/master/docs/static/js/3.c1534b57.chunk.js.map",
+    "index.html": "https://raw.githack.com/KM8Oz/oldi_computers/master/docs/index.html",
+    "static/css/main.b1e4640e.chunk.css.map": "https://raw.githack.com/KM8Oz/oldi_computers/master/docs/static/css/main.b1e4640e.chunk.css.map",
+    "static/js/2.14edb9bd.chunk.js.LICENSE.txt": "https://raw.githack.com/KM8Oz/oldi_computers/master/docs/static/js/2.14edb9bd.chunk.js.LICENSE.txt",
+    "static/media/Comp.png": "https://raw.githack.com/KM8Oz/oldi_computers/master/docs/static/media/Comp.367bf2bf.png",
+    "static/media/Comp1.png": "https://raw.githack.com/KM8Oz/oldi_computers/master/docs/static/media/Comp1.2817c001.png",
+    "static/media/Comp2.png": "https://raw.githack.com/KM8Oz/oldi_computers/master/docs/static/media/Comp2.799f9aa2.png",
+    "static/media/index.css": "https://raw.githack.com/KM8Oz/oldi_computers/master/docs/static/media/GothamProNarrow-Medium.f8df17da.eot",
+    "static/media/banner_foot.png": "https://raw.githack.com/KM8Oz/oldi_computers/master/docs/static/media/banner_foot.c9b3bd2b.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.073786c3.js",
-    "static/js/2.73eaf7e1.chunk.js",
-    "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.1f8ede50.chunk.js"
+    "static/js/runtime-main.c4b76f83.js",
+    "static/js/2.14edb9bd.chunk.js",
+    "static/css/main.b1e4640e.chunk.css",
+    "static/js/main.e34acc1d.chunk.js"
   ]
 }
